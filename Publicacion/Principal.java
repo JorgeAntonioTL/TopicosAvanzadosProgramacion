@@ -1,5 +1,5 @@
 //Jorge Antonio Toscano Lara
-//El programa se mantuvo trabajando con arreglos con un tamaño de 10
+//El programa se mantuvo trabajando con arreglos con un tamaÃ±o de 10
 package Publicacion;
 
 import java.util.Scanner;
@@ -40,11 +40,11 @@ public class Principal {
 	        		revista.setTitulo(leer.nextLine());
 	        		System.out.println("Ingresa el precio de la revista: ");
 	        		revista.setPrecio(leer.nextDouble());
-	        		System.out.println("Ingresa el número de la revista: ");
+	        		System.out.println("Ingresa el nÃºmero de la revista: ");
 	        		revista.setNumero(leer.nextInt());
 	        		System.out.println("Ingresa el anio de la revista: ");
 	        		revista.setAnio(leer.nextInt());
-	        		System.out.println("Ingresa el número de paginas de la revista: ");
+	        		System.out.println("Ingresa el nÃºmero de paginas de la revista: ");
 	        		revista.setNumpag(leer.nextInt());
 	        		publicaciones[ctrlpub] = revista;
 	                ctrlpub++;
@@ -58,8 +58,9 @@ public class Principal {
 	        		periodico.setTitulo(leer.nextLine());
 	        		System.out.println("Ingresa el precio del periodico: ");
 	        		periodico.setPrecio(leer.nextDouble());
-	        		System.out.println("Ingresa el número de paginas del periodico: ");
+	        		System.out.println("Ingresa el nÃºmero de paginas del periodico: ");
 	        		periodico.setNumpag(leer.nextInt());
+	        		leer.nextLine();
 	        		System.out.println("Ingresa las secciones del periodico: ");
 	        		periodico.setSecciones(leer.nextLine());
 	        		System.out.println("Ingresa el editor del periodico: ");
@@ -76,7 +77,7 @@ public class Principal {
 	        		libro.setTitulo(leer.nextLine());
 	        		System.out.println("Ingresa el precio del libro: ");
 	        		libro.setPrecio(leer.nextDouble());
-	        		System.out.println("Ingresa el número de paginas del libro: ");
+	        		System.out.println("Ingresa el nÃºmero de paginas del libro: ");
 	        		libro.setNumpag(leer.nextInt());
 	        		System.out.println("Ingresa el ISBN del libro: ");
 	        		leer.nextLine();
